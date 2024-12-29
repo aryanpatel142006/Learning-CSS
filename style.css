@@ -1,0 +1,80 @@
+h1{
+    color:red;
+    
+}  
+
+p {
+    color: royalblue;
+    text-align: center;
+}
+
+button {
+    color:cyan;
+    background-color:crimson;
+}
+
+body {
+    background-color:aquamarine
+}
+
+#headingOne {
+    color:red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#headingTwo {
+    color:Blue;
+    font-weight: normal;
+
+}
+
+#headingThree {
+    font-weight: lighter;
+
+}
+
+.myClass {
+    color:Green;
+}
+
+#p1 {
+    font-family: arial;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#p2 {
+    text-transform: capitalize9;
+}
+
+/* Level 2 */
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border-width: 2px;
+    border-style: solid;
+    border-color:darkorchid;
+    border-style:solid;
+    border-radius: 15px;
+    padding-left: 25px; 
+    padding-right: 25px;
+    padding-bottom: 25px;
+
+
+}
+
+#mainDiv {
+    border-style: dashed;
+}
+h1{
+    text-align: center;
+    width: 200px;
+    /* border-width: 2px;    
+    border-style: dotted;
+    border-color: black; */
+
+    border: 2px dotted black;
+}  

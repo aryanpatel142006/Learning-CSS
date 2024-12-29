@@ -1,0 +1,114 @@
+* {
+    border:0px;
+    margin:0px;
+}
+
+#navbar {
+
+    width: 100vw;
+    position: fixed;
+    background-color: #0f1111;
+    color: white;
+    top:0;
+    padding:20px;
+    z-index: 1;
+
+}
+
+body {
+    position: relative;
+    top:60px;
+}
+
+#searchButton {
+    background-color: #f08804;
+}
+
+#logo {
+    color: #f08804;
+}
+
+a {
+    margin-right: 200px;
+    text-decoration: none;
+    color:white;
+}
+
+/* NAVBAR DONE */
+
+/* #displayDiv {
+    background-color: pink;
+    display: inline;
+}
+
+#button {
+    display: block;
+} */
+
+#content {
+/* height: 725px; */
+}
+
+.contentBox {
+    height: 100px;
+    width: 100px;
+    border: 2px dashed  navajowhite;
+    display: inline-block;
+}
+
+#box1 {
+    background-color: rgba(255,0,0,0.5);
+}
+
+#box2 {
+    background-color: rgba(0,255,0,0.5);
+}
+
+#box3 {
+    background-color: rgba(0,0,255,0.5);
+}
+
+.positionPlayground {
+    height: 100px;
+    width: 100px;
+    background-color:aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+#nbox1 {
+    position: static;
+    top: 50px; /*No change*/
+    background-image: url(cat1.jpg);
+    background-size:cover;
+}
+
+#nbox2 {
+    position:relative;
+    top: 50px;
+    background-image: url(cat2.jpg);
+    background-size:cover;
+}
+
+#nbox3 {
+    position: absolute;
+    top: 2050px;
+    left: 220px;
+    background-image: url(cat3.jpg);
+    background-size:cover;
+
+}
+
+#nbox4 {
+    position: fixed;
+    right:100px;
+}
+
+footer {
+    position: fixed;
+    background-color: #0f1111 ;
+    color: white;
+    text-align: center;
+    bottom: 0;
+    width: 100vw;
+}
